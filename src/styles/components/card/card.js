@@ -19,11 +19,14 @@ const useStyles = makeStyles((theme) => ({
     "& *": {
       fontFamily: `${theme?.globals?.fontFamily?.en}!important`,
     },
+    "& .MuiCardContent-root": {
+      backgroundColor: theme?.globals?.colors.offWhite,
+    },
   },
   flag: {
     padding: "2px 10px",
     position: "absolute",
-    fontSize: 12,
+    fontSize: `${theme?.globals?.fontSize?.sm}px!important`,
     backdropFilter: "blur(4px)",
     backgroundColor: "#ffffff1a",
     height: 24,
@@ -33,9 +36,9 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     height: 28,
-    fontSize: `${theme?.globals?.fontSize?.xl}px`,
-    fontWeight: theme?.globals?.fontWeight?.bold,
-    color: theme.palette.black.main,
+    fontSize: `${theme?.globals?.fontSize?.xl}px!important`,
+    fontWeight: `${theme?.globals?.fontWeight?.bold}!important`,
+    color: theme?.palette?.black?.main,
     display: "-webkit-box",
     overflow: "hidden",
     textOverflow: "ellipsis",
@@ -45,13 +48,13 @@ const useStyles = makeStyles((theme) => ({
   },
   description: {
     height: 70,
-    fontSize: `${theme?.globals?.fontSize?.md}px !important`,
+    fontSize: `${theme?.globals?.fontSize?.md}px!important`,
     display: "-webkit-box",
     overflow: "hidden",
     textOverflow: "ellipsis",
     WebkitBoxOrient: "vertical",
     WebkitLineClamp: "3",
-    color: theme.palette.black.main,
+    color: `${theme?.palette?.black?.main}!important`,
   },
 }));
 export default useStyles;

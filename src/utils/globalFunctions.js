@@ -4,6 +4,7 @@ export const makeTheme = (currentTheme) => {
   return {
     direction: "ltr",
     palette: {
+      mode: "dark",
       primary: {
         main: currentTheme?.elements?.colors?.orange,
       },

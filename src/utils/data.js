@@ -1,7 +1,7 @@
 export const homeSliderData = [
-  { id: 1, src: "images/slider/main.jpeg", alt: "food" },
-  { id: 2, src: "images/slider/food1.jpg", alt: "food" },
-  { id: 3, src: "images/slider/food2.jpg", alt: "food" },
+  { id: 1, src: "images/slider/food1.jpg", alt: "food" },
+  { id: 2, src: "images/slider/food2.jpg", alt: "food" },
+  { id: 3, src: "images/slider/food3.jpg", alt: "food" },
 ];
 
 export const marketingData = [

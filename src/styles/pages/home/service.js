@@ -8,9 +8,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   contentContainer: {
-    flexDirection: "row-reverse",
+    flexDirection: "row-reverse!important",
     [theme.breakpoints.down(770)]: {
-      flexDirection: "column",
+      flexDirection: "column!important",
     },
   },
   center: {
@@ -34,19 +34,19 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   title: {
-    fontSize: `${theme?.globals?.fontSize?.xl + 6}px`,
-    fontWeight: theme?.globals?.fontWeight?.bold,
-    marginBottom: 24,
-    color: theme.palette.black.main,
+    fontSize: `${theme?.globals?.fontSize?.xl + 6}px!important`,
+    fontWeight: `${theme?.globals?.fontWeight?.bold}!important`,
+    marginBottom: "24px!important",
+    color: theme?.palette?.black?.main,
   },
   description: {
-    fontSize: theme?.globals?.fontSize?.md,
-    color: theme.palette.black.main,
+    fontSize: `${theme?.globals?.fontSize?.md}px!important`,
+    color: theme?.palette?.black?.main,
   },
   centeredData: {
     justifyContent: "center",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "column!important",
   },
 }));
 export default useStyles;

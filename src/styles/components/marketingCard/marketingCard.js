@@ -18,13 +18,13 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   title: {
-    fontSize: theme.globals.fontSize.md,
-    fontWeight: theme.globals.fontWeight.bold,
-    color: theme.palette.black.main,
+    fontSize: `${theme?.globals?.fontSize.md}px!important`,
+    fontWeight: `${theme?.globals?.fontWeight.bold}!important`,
+    color: theme?.palette?.black?.main,
     height: 50,
   },
   description: {
-    color: theme.palette.gray.main,
+    color: theme?.palette?.gray?.main,
   },
 }));
 export default useStyles;

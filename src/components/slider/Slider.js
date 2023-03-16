@@ -7,7 +7,7 @@ import useStyles from "../../styles/components/slider/slider";
 export default function SpecificSlider(props) {
   let { data } = props;
   const sliderClasses = useStyles();
-  console.log("slliderrrrrrrrrr");
+
   const settings = {
     dots: true,
     infinite: true,

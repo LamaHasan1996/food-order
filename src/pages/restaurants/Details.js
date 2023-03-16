@@ -67,7 +67,7 @@ export default function Details() {
                       </Box>
                     )}
                     {meal?.cost && (
-                      <Box>
+                      <Box className={restaurantsClasses.black}>
                         {meal?.cost}
                         {" SYP"}
                       </Box>
