@@ -1,8 +1,8 @@
-import Slider from "./homeSlider/HomeSlider";
-import Marketing from "./marketing/Marketing";
+import Slider from "../../components/home/homeSlider/HomeSlider";
+import Marketing from "../../components/home/marketing/Marketing";
 import Service from "../../components/home/service/Service";
-import About from "./about/About";
-import Restaurants from "./restaurants/Restaurants";
+import About from "../../components/home/about/About";
+import Restaurants from "../../components/home/restaurants/Restaurants";
 function Home() {
   return (
     <>
